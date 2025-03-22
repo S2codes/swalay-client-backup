@@ -35,7 +35,7 @@ export const config = {
         '/register',
         '/verifyemail',
         '/forgotpassword',
-        '/((?!api|_next/static|_next/image|favicon.ico).*)',
+        '/((?!api|_next|favicon.ico|static|public).*)',
         '/:path*',
     ]
 };
